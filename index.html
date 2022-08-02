@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="styles/styles.css">
+  <title>Video Search</title>
+</head>
+<body>
+<div class="wrapper">
+  <div class="d-flex-column">
+    <a class="logo" href="https://www.youtube.com">
+      <img src="images/youtube.png" alt="Youtube Logo"/>
+    </a>
+    <form action="https://www.youtube.com/results?" method="GET">
+      <div class="form">
+        <input class="input" type="text" name="search_query" placeholder="Search..."/>
+        <button class="button button-red" type="submit">Find</button>
+      </div>
+    </form>
+  </div>
+  <div class="d-flex-column">
+    <a class="logo" href="https://vimeo.com">
+      <img src="images/vimeo.png" alt="Vimeo Logo"/>
+    </a>
+    <form action="https://vimeo.com/search?" method="GET">
+      <div class="form">
+        <input class="input" type="text" name="q" placeholder="Search..."/>
+        <button class="button button-blue" type="submit">Find</button>
+      </div>
+    </form>
+  </div>
+</div>
+</body>
+</html>
